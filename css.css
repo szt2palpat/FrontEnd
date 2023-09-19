@@ -8,12 +8,17 @@
     --b6: violet;
 --b7: pink;
 --b8: orange;
+--ball-width:250px ;
+--ball-height:250px;
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
+}
+input[type=range]{
+width: 100%;
 }
 #elso{
     display: flex;

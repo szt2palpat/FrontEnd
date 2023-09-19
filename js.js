@@ -1,12 +1,13 @@
 let root;
-let oldColor;
-let picker;
-
+let wid;
+let heh;
+window.onload(){
+root=document.querySelector(":root");
+wid=document.getElementById("width").value;
+heh=document.getElementById("heh").value;
+}
 function valt(){
-    numberick=parseInt(document.getElementById("numbi").value)
-    if(numberick>0&&numberick<9){
-        root.style.setProperty(`--b${numberick}`, picker.value)
-        console.log(picker.value,`--b${numberick}`)     
-    }
+    root.style.setProperty("--ball-width",wid);
+    root.style.setProperty("--ball-height",heh);
 
 }
